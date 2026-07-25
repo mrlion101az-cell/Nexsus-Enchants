@@ -1,0 +1,12 @@
+name: NexusEnchants
+version: ${project.version}
+main: com.nexusuniverse.enchants.NexusEnchantsPlugin
+api-version: '1.21'
+author: Nexus Universe
+description: Custom "enchantments" for weapons, armor, tools, bows, crossbows, fishing rods, shields, tridents, shears, elytra, maces, horse armor, compasses, totems, spyglasses, carved pumpkins, firework rockets, and leads -- 184 total plus Lava/Tide Walker.
+
+commands:
+  nexusenchants:
+    description: Give NexusEnchants items.
+    aliases: [enchants, ne]
+    usage: /nexusenchants <give <item>|give tome <id> [level]|list>
